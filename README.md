@@ -35,10 +35,8 @@ At the end, we need five .xml files and one sumo config file .sumocfg file. All 
 
     simulation_params.py all the parameters. 
 
-    visualizaiton.py some simple plots for analysing the resul. 
+    visualizaiton.py some simple plots for analyzing the results. 
     
     DQNAgent.py Create replay memory, create model, get Q-values, train the model 
 
-    Training.py connect all the essentials for starting the simulation and training. 
-
-
+    Training.py connects all the essentials for starting the simulation and training. 
