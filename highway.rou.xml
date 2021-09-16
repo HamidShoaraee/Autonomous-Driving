@@ -1,0 +1,6 @@
+ <routes>
+            <vType id="emg" vClass="passenger" length="16.0" width="2.55" maxSpeed="50" guiShape="emergency" color="1,0,0" speedFactor ="1.5" />
+            <vType id="ego" vClass="passenger" length="4.8" width="1.8" maxSpeed="50" guiShape="bus" color="0,1,0" lane ="1"  />
+            <vType id="car" vClass="passenger" length="4.8" width="1.8" maxSpeed="30" guiShape="passenger/van" color="0,1,1"   />
+            <route id="route0" edges="add"/>
+            </routes>

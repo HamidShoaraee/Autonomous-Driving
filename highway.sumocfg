@@ -1,0 +1,10 @@
+<configuration>
+                <input><net-file value="highway.net.xml"/>
+                <route-files value="highway.rou.xml"/>
+                <gui-settings-file value="highway.settings.xml"/>
+                </input>
+                <time><begin value="0"/><end value="1e15"/>
+                </time>
+                <processing><lanechange.duration value="0"/><lanechange.overtake-right value="true"/><collision.action value="warn"/>
+                </processing>
+                </configuration>
