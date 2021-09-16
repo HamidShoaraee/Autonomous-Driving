@@ -21,7 +21,6 @@ Let's start to define the main components in this project:
 For how to install SUMO and Hello world of SUMO you can take a look on this SUMO documentation https://sumo.dlr.de/docs/Tutorials/Hello_World.html. 
 At the end, we need five .xml files and one sumo config file .sumocfg file. All these files creat by Road as a first class in simulation.py.  
 
-
 **Actions**: I consider 5 actions for the ego that can do in each step of one episode.
             a0 : no change speed, no change lane
             a1 : change to the left lane 
