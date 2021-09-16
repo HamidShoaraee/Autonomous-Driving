@@ -29,3 +29,16 @@ At the end, we need five .xml files and one sumo config file .sumocfg file. All 
             a4:  decrease speed 
 
 **Reward** : I want the agent to learn both normal driving and making the best decision when approached by the emergency vehicle. We consider some penalties and the agent needs to minimize the sum of these penalties at each step of one episode. The following equation will describe the penalty at each step of one episode. 
+
+.py description: 
+    Simulation.py: generate nodes, edges, route, settings, configuration file, remove vehicles, add vehicles, control vehicle, subscribe to the objects, collect states, do actions, next observation, calculate the reward. 
+
+    simulation_params.py all the parameters. 
+
+    visualizaiton.py some simple plots for analysing the resul. 
+    
+    DQNAgent.py Create replay memory, create model, get Q-values, train the model 
+
+    Training.py connect all the essentials for starting the simulation and training. 
+
+
