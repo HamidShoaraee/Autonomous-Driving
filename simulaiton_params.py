@@ -15,11 +15,11 @@ sim_params["max_speed_ego"] = 30
 sim_params["min_road_speed"] =  10     # m/s                        
 sim_params["max_road_speed"] =  50     # m/s
 sim_params["ego_depart_pos"] = np.random.randint(20, 200)       
-sim_params["emg_depart_pos"] = "base"                             # Departure pos of the emg 
+sim_params["emg_depart_pos"] = "base"                            
 sim_params["veh_depart_pos"] =  np.random.randint(0, 500)
 
 ######################################### Training_Prams ######################################## 
-sim_params['input_shape'] = (31,)                                 # Need to make sure 
+sim_params['input_shape'] = (31,)                               
 sim_params['output_shape'] = (np.shape(sim_params['action'])[0])
 sim_params['max_size_memory'] = 100
 sim_params['min_size_memory'] = 0
@@ -31,7 +31,7 @@ sim_params['discount'] = 0.99
 sim_params["update_target_every"] = 5
 sim_params['start_epsilon']  = 1
 sim_params['end_epsilon'] = 0
-sim_params['epsilon_decay']  = 0.001                      # This can tune based on the number of games 
+sim_params['epsilon_decay']  = 0.001                     
 sim_params['epsilon'] = 0.57  
 sim_params['number_of_training'] = 2000
 
