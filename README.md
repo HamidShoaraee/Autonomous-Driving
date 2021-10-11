@@ -1,6 +1,6 @@
 # Autonomous-Driving
 # Self-driving car and Emergency vehicle. 
-Autonomous Vehicles (Avs) are the future of road transportation which can bring us safety, efficiency, and productivity. But staying in the lane is not enough anymore and AVs need to train for more complicated edge cases. In this project, we want to try to solve one of these edge cases with help of Deep Reinforcement Learning(DRL).
+Autonomous Vehicles (AVs) are the future of road transportation which can bring us safety, efficiency, and productivity. But staying in the lane is not enough anymore and AVs need to train for doing more complicated edge cases. In this project, I try to solve one of these edge cases with help of Deep Reinforcement Learning(DRL).
 
 Why I am thinking about this project? 
 Two reasons, First, I am crazy about all cars either the 1980 Toyota Corolla or Tesla model S. Second, I watch the AlphaGo movie https://www.youtube.com/watch?v=WXuK6gekU1Y so need to have a project about Reinforcement Learning!. 
